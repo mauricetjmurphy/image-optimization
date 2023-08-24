@@ -26,7 +26,7 @@ Run the following command in your terminal:
 
     $ node index.mjs
 
-The converted `.webp` images will be saved in the `./output` directory.
+The converted `.webp` images will be saved in the `./build` directory.
 
 ## Configuration
 

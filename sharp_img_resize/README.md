@@ -18,7 +18,7 @@ This app resizes images to various dimensions to optimize them for different scr
 
 ## Running the app
 1. Place your images in the `./images` directory.
-2. Run the app using the command: `node index.mjs`.
+2. Run the app using the command: `yarn build`.
 3. The resized images will be available in the `./build` directory.
 
 Note: The app supports resizing `.jpeg`, `.png`, and `.webp` files.

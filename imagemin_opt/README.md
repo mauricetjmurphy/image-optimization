@@ -25,7 +25,7 @@ This will install the imagemin, imagemin-mozjpeg, and imagemin-pngquant librarie
 
     $ node index.mjs
 
-The optimized images will be saved in the `build/images` directory.
+The optimized images will be saved in the `build` directory.
 
 ## Configuration
 

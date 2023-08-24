@@ -4,7 +4,7 @@ import imageminPngquant from "imagemin-pngquant";
 
 (async () => {
   const files = await imagemin(["./images/**.*"], {
-    destination: "build/images",
+    destination: "build",
     plugins: [imageminMozjpeg({ quality: 80 }), imageminPngquant({ quality: [0.1, 0.3] })],
   });
   console.log(files);
